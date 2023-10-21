@@ -1,0 +1,37 @@
+10/20/23
+11/11/22
+1.$ git add docs/status.txt
+warning: in the working copy of 'docs/status.txt', LF will be replaced by CRLF the next time Git touches it
+
+scarf@DESKTOP-411MQ5O MINGW64 ~/OneDrive/Desktop/assignment2 (master)
+$ git commit -m "Add status.txt with git status output"
+git push
+[master 0da6a57] Add status.txt with git status output
+ 1 file changed, 1 insertion(+)
+ create mode 100644 docs/status.txt
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 351 bytes | 351.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/JacobScarff/assignment2.git
+   994bd29..0da6a57  master -> master
+2.$ git rev-list --all --count
+9
+3. $ git log -1 --pretty=format:"%ad" -- README.md
+Fri Oct 20 23:14:13 2023 -0500
+4. Feature development and Parallel development
+5. git log shows the commit history of the repository. while git status is an overview of changes in the working directory that hasnt ben commited. 
+6. git log -- Vehicle.h
+7. git log --grep="file"
+8. 	1 Inheritance is when a new class has properties and behaviors from an existing class.
+	2 Polymorphism allows objects from different classes to be treated as objects of the same superclass.
+	3 Encapsulation is bundling of data and the meathods that operate on the data into a single class.
+9. The Dictator and Lieutenants workflow operates on a sense of a hierarchy, since the lieutenants merge some of the developers work and then give it to the dictator to finish. While a Centralized workflow has one single manager getting everything from the developers and doing it themselves.
+10. This would basically help split up the work load better since there can be multiple lieutenants that oversea a decent amount of developers ensuring that the work is done in a more efficient way and not putting to big of a work load on one person.
+
+
+
+
